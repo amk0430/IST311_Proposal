@@ -1,9 +1,7 @@
-testing
-hello its hamzah
-Hi this is Amber
-Hi it is Trina
-
 Okay so any bright ideas??
 i think we should do power to people app lol
 I think that is too much work? How about just deleting or moving files
 how about sorting files in a folder by file type like docx, txt or pdf
+
+We are going to access the directory of different folders through the cmd line.
+We will create files through the cmd line and add data to the files through vi and read everything using Netbeans.
