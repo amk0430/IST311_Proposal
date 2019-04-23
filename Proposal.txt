@@ -5,3 +5,4 @@ how about sorting files in a folder by file type like docx, txt or pdf
 
 We are going to access the directory of different folders through the cmd line.
 We will create files through the cmd line and add data to the files through vi and read everything using Netbeans.
+We can fill the files with different tools and maybe users with we go with the power to people idea
