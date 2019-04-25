@@ -13,11 +13,24 @@ public class Test {
           objReader = new BufferedReader(new FileReader("src/toolForRent.txt"));
 
           while ((commandLinetxt = objReader.readLine()) != null) {
-          System.out.println(commandLinetxt);
+            System.out.println(commandLinetxt);
           }
 
-    } catch (IOException e) {
+      } catch (IOException e) {
         e.printStackTrace();
+    }
+
+    try
+    {
+        String commandLinetxt;
+        objReader = new BufferedReader(new FileReader("src/customerInfo.txt"));
+
+        while ((commandLinetxt = objReader.readLine()) != null) {
+          System.out.println(commandLinetxt);
+        }
+
+    } catch (IOException e) {
+      e.printStackTrace();
     }
   }
 }
