@@ -10,7 +10,7 @@ public class Test {
       try
       {
           String commandLinetxt;
-          objReader = new BufferedReader(new FileReader("src/fileToRead.txt"));
+          objReader = new BufferedReader(new FileReader("src/toolForRent.txt"));
 
           while ((commandLinetxt = objReader.readLine()) != null) {
           System.out.println(commandLinetxt);
